@@ -22,7 +22,7 @@
                     <p class="subtitle">I'm a passionate and dedicated junior React developer with a strong foundation
                         in<br>JavaScript and a growing understanding of React's components, state management, and
                         routing.</p>
-                    <button id="contact-me" class="btn ">Contact with me</button>
+                    <button class="btn"><a class="contact-link"   href="#contact-me">contact with me</a></button>
                 </div>
             </div>
         </div>
@@ -108,8 +108,9 @@
                 <div class="card-1">
                     <img class="card-img" src="./assets/html.png" alt="HTML">
                     <h3 class="card-title">HTML</h3>
-                    <p class="card-sub-title">structures web content and defines the elements on a page.<p>
-                    <a class="card-link" href="#">Learn More</a>
+                    <p class="card-sub-title">structures web content and defines the elements on a page.
+                    <p>
+                        <a class="card-link" href="#">Learn More</a>
                 </div>
 
                 <div class="card-2">
@@ -131,40 +132,57 @@
         <!-- My Current Target ends here -->
 
         <!-- My Next Target section starts here -->
-        <section>
-            <div class="target-section">
-                <h1>My Next Target</h1>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-        
-                <div class="card">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="ReactJS">
-                    <div class="card-content">
-                        <h3>ReactJS</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-                        <a href="#">Learn More</a>
-                    </div>
+
+        <section class="target-section">
+
+            <h1 class="target-heading">My Next Target</h1>
+            <p class="target-sub-heading">Lorem Ipsum is simply dummy text of thprinting and typesetting industry. Lorem Ipsuhas been the
+                industry's standard dummy text.</p>
+
+            <div class="next-target-card">
+                <img src="./assets/react.png" alt="ReactJS">
+                <div class="target-card-content">
+                    <h1 class="target-title">ReactJS</h1>
+                    <p class="target-sub-title">A JavaScript library for building interactive user interfaces using reusable components efficiently.
+                    </p>
+                    <a class="target-sec-link" href="#">Learn More</a>
                 </div>
-        
-                <div class="card">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="NodeJS">
-                    <div class="card-content">
-                        <h3>NodeJS</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-                        <a href="#">Learn More</a>
-                    </div>
+            </div>
+
+            <div class="next-target-card">
+                <img src="./assets/nodejs.png" alt="NodeJS">
+                <div class="target-card-content">
+                    <h1 class="target-title">NodeJS</h1>
+                    <p class="target-sub-title">A JavaScript runtime environment enabling server-side programming, supporting scalable, non-blocking I/O operations.</p>
+                    <a class="target-sec-link" href="#">Learn More</a>
                 </div>
-        
-                <div class="card">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/MongoDB_Logo.svg" alt="MongoDB">
-                    <div class="card-content">
-                        <h3>MongoDB</h3>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
-                        <a href="#">Learn More</a>
-                    </div>
+            </div>
+
+            <div class="next-target-card">
+                <img class="target-sec-img" src="./assets/mongodb.png" alt="MongoDB">
+                <div class="target-card-content">
+                    <h1 class="target-title">MongoDB</h1>
+                    <p class="target-sub-title">A NoSQL database providing flexible document-based data storage, ideal for handling large-scale applications.</p>
+                    <a class="target-sec-link" href="#">Learn More</a>
                 </div>
             </div>
         </section>
 
+        <!-- My Next Target section Ends here -->
+
+        <!-- Support section starts here -->
+
+        <section id="contact-me" class="support-section">
+            <div class="support-content">
+                <h1 class="support-heading">I need Support</h1>
+                <p class="support-sub-heading">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            
+                <form class="feedback-form">
+                    <input type="text" placeholder="Suggest me any feedback for me">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
     </main>
 
     <!-- Footer section -->
