@@ -70,6 +70,7 @@ justify-content: center;
 }
 /* Head section styles ends here */
 
+/* Main section starts here */
 .main-container-two{
     display: flex;
     flex-direction: column;
@@ -110,6 +111,7 @@ justify-content: center;
     border-radius: 16px;
     padding: 20px 25px 20px 25px;
     background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    margin-bottom: 30px;
 }
 
 .quote-card-2{
@@ -159,9 +161,13 @@ justify-content: center;
     line-height: 23px;
     letter-spacing: 0%;
     text-align: center;
+    cursor: pointer;
 
 }
 
+/* Main section ends here */
+
+/*  My Inspiration starts here */
 .sec-3-heading{
     text-align: center;
     margin-bottom: 50px;
@@ -187,6 +193,8 @@ justify-content: center;
   justify-content: center;
   align-items: center;
 }
+
+/*  My Inspiration Ends here */
 
 .ins-head-container{
     text-align: center;
@@ -348,7 +356,9 @@ justify-content: center;
     opacity: 0.7;
     margin-bottom: 50px;
 }
+/* My next target section ends here */
 
+/* Support section starts here */
 .support-section {
     padding: 50px;
     display: flex;
@@ -409,6 +419,9 @@ justify-content: center;
     font-size: 13px;
     font-weight: 700;
 }
+/* Support section ends here */
+
+/* Footer section starts here */
 
 .footer {
     display: flex;
@@ -438,3 +451,5 @@ justify-content: center;
     width: 24px;
     height: 24px;
 }
+
+/* Footer section starts here */
